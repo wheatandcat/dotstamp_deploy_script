@@ -5,7 +5,12 @@
 ## 概要
 .stampのデプロイスクリプト  
 webサービス：[.stamp](http://dotstamp.com/)
-
+## projectリポジトリ一覧
+* サーバーサイド:[dotstamp_server](https://github.com/wheatandcat/dotstamp_server)
+* クライアントサイド：[dotstamp_client](https://github.com/wheatandcat/dotstamp_client)
+* 環境構築：[dotstamp_ansible](https://github.com/wheatandcat/dotstamp_ansible)
+* デプロイスクリプト：[dotstamp_deploy_script](https://github.com/wheatandcat/dotstamp_deploy_script)
+* デプロイ環境構築：[dotstamp_deploy_ansible](https://github.com/wheatandcat/dotstamp_deploy_ansible)
 ## 環境構築
 * [ローカル環境構築](https://github.com/wheatandcat/dotstamp_ansible#ローカル環境構築手順-)
 ## 実行手順
