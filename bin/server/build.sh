@@ -10,5 +10,11 @@ mv /vagrant/project/dotstamp_deploy_script/main /vagrant/project/dotstamp_deploy
 go build /home/vagrant/go/src/dotstamp_server/tasks/makeMovie/main.go
 mv /vagrant/project/dotstamp_deploy_script/main /vagrant/project/dotstamp_deploy/tasks/makeMovie/makeMovie
 
+go build /home/vagrant/go/src/dotstamp_server/tasks/sitemap/main.go
+mv /vagrant/project/dotstamp_deploy_script/main /vagrant/project/dotstamp_deploy/tasks/sitemap/sitemap
+
 go build /home/vagrant/go/src/dotstamp_server/tasks/removeContribution/main.go
 mv /vagrant/project/dotstamp_deploy_script/main /vagrant/project/dotstamp_deploy/tasks/removeContribution/removeContribution
+
+go build /home/vagrant/go/src/dotstamp_server/tasks/soundTime/main.go
+mv /vagrant/project/dotstamp_deploy_script/main /vagrant/project/dotstamp_deploy/tasks/soundTime/soundTime
